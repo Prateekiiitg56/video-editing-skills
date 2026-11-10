@@ -1,0 +1,15 @@
+video-editing
+editing-foundations
+ffmpeg-pipeline
+beat-sync
+color-grading
+captions-typography
+sound-design
+style-instagram-reels
+style-velocity-edit
+style-meme-comedy
+style-kinetic-typography
+style-aesthetic-minimal
+style-instagram-carousel
+reel-hand-text
+reference-matching

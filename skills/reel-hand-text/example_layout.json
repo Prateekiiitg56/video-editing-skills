@@ -1,0 +1,15 @@
+{
+  "top": 0.16,
+  "word_gap": 0.42,
+  "line_gap": 70,
+  "jitter": [0.08, 3.5, 10],
+  "lines": [
+    {"words": [["AND", 120], ["FOR", 120]], "slope": 0, "arc": 0},
+    {"words": [["MY", 150], ["FINAL", 210], ["TRICK", 200]], "slope": 4, "arc": -25},
+    {"words": [["I'LL", 190], ["BELIEVE", 260], ["IN", 160]], "slope": 2, "arc": 0},
+    {"words": [["MYSELF", 230], ["SO", 230], ["DEEPLY", 230]], "slope": -1, "arc": 10},
+    {"words": [["THAT", 215], ["MY", 255], ["REALITY", 250]], "slope": -3, "arc": 20},
+    {"words": [["HAS", 160], ["NO", 230], ["CHOICE", 245], ["BUT", 170]], "slope": -3, "arc": 110},
+    {"words": [["TO", 170], ["CATCH", 220], ["UP.", 215]], "slope": -5, "arc": 70}
+  ]
+}

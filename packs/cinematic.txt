@@ -1,0 +1,14 @@
+video-editing
+editing-foundations
+ffmpeg-pipeline
+beat-sync
+color-grading
+captions-typography
+sound-design
+style-cinematic
+style-trailer
+style-music-video
+style-documentary
+style-event-highlight
+shoot-planning
+motion-tracking

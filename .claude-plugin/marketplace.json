@@ -1,0 +1,195 @@
+{
+  "name": "video-editing-skills",
+  "owner": {
+    "name": "Prateekiiitg56"
+  },
+  "metadata": {
+    "description": "Video editing skills for coding agents: 17 named editing styles plus production-correct foundations",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "video-editing-all",
+      "description": "Every video editing skill: router, foundations, and all 17 named editing styles",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/beat-sync",
+        "./skills/captions-typography",
+        "./skills/color-grading",
+        "./skills/davinci-resolve",
+        "./skills/editing-foundations",
+        "./skills/ffmpeg-pipeline",
+        "./skills/motion-tracking",
+        "./skills/reel-hand-text",
+        "./skills/reference-matching",
+        "./skills/shoot-planning",
+        "./skills/sound-design",
+        "./skills/style-aesthetic-minimal",
+        "./skills/style-cinematic",
+        "./skills/style-commercial-promo",
+        "./skills/style-documentary",
+        "./skills/style-event-highlight",
+        "./skills/style-explainer",
+        "./skills/style-instagram-carousel",
+        "./skills/style-instagram-reels",
+        "./skills/style-kinetic-typography",
+        "./skills/style-meme-comedy",
+        "./skills/style-motion-graphics",
+        "./skills/style-music-video",
+        "./skills/style-talking-head",
+        "./skills/style-trailer",
+        "./skills/style-velocity-edit",
+        "./skills/style-vfx-compositing",
+        "./skills/style-vlog-travel",
+        "./skills/video-editing"
+      ]
+    },
+    {
+      "name": "video-editing-core",
+      "description": "Editing foundations: router, cut craft, ffmpeg pipeline, beat sync, color grading, captions, sound design",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/video-editing",
+        "./skills/editing-foundations",
+        "./skills/ffmpeg-pipeline",
+        "./skills/beat-sync",
+        "./skills/color-grading",
+        "./skills/captions-typography",
+        "./skills/sound-design"
+      ]
+    },
+    {
+      "name": "video-editing-reels",
+      "description": "Instagram Reels / TikTok / Shorts: reels, velocity edit, meme, kinetic type, aesthetic, carousel, hand-lettered quotes, reference matching",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/video-editing",
+        "./skills/editing-foundations",
+        "./skills/ffmpeg-pipeline",
+        "./skills/beat-sync",
+        "./skills/color-grading",
+        "./skills/captions-typography",
+        "./skills/sound-design",
+        "./skills/style-instagram-reels",
+        "./skills/style-velocity-edit",
+        "./skills/style-meme-comedy",
+        "./skills/style-kinetic-typography",
+        "./skills/style-aesthetic-minimal",
+        "./skills/style-instagram-carousel",
+        "./skills/reel-hand-text",
+        "./skills/reference-matching"
+      ]
+    },
+    {
+      "name": "video-editing-cinematic",
+      "description": "Cinematic, trailer, music video, documentary and event films, plus shoot planning and tracking",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/video-editing",
+        "./skills/editing-foundations",
+        "./skills/ffmpeg-pipeline",
+        "./skills/beat-sync",
+        "./skills/color-grading",
+        "./skills/captions-typography",
+        "./skills/sound-design",
+        "./skills/style-cinematic",
+        "./skills/style-trailer",
+        "./skills/style-music-video",
+        "./skills/style-documentary",
+        "./skills/style-event-highlight",
+        "./skills/shoot-planning",
+        "./skills/motion-tracking"
+      ]
+    },
+    {
+      "name": "video-editing-motion",
+      "description": "Motion graphics, kinetic typography, explainers and VFX compositing",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/video-editing",
+        "./skills/editing-foundations",
+        "./skills/ffmpeg-pipeline",
+        "./skills/beat-sync",
+        "./skills/color-grading",
+        "./skills/captions-typography",
+        "./skills/sound-design",
+        "./skills/style-motion-graphics",
+        "./skills/style-kinetic-typography",
+        "./skills/style-explainer",
+        "./skills/style-vfx-compositing",
+        "./skills/motion-tracking"
+      ]
+    },
+    {
+      "name": "video-editing-youtube",
+      "description": "YouTube: talking head, documentary, vlog/travel, explainers",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/video-editing",
+        "./skills/editing-foundations",
+        "./skills/ffmpeg-pipeline",
+        "./skills/beat-sync",
+        "./skills/color-grading",
+        "./skills/captions-typography",
+        "./skills/sound-design",
+        "./skills/style-talking-head",
+        "./skills/style-documentary",
+        "./skills/style-vlog-travel",
+        "./skills/style-explainer"
+      ]
+    },
+    {
+      "name": "video-editing-commercial",
+      "description": "Commercial promos, product/restaurant/real-estate ads, event highlights",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/video-editing",
+        "./skills/editing-foundations",
+        "./skills/ffmpeg-pipeline",
+        "./skills/beat-sync",
+        "./skills/color-grading",
+        "./skills/captions-typography",
+        "./skills/sound-design",
+        "./skills/style-commercial-promo",
+        "./skills/style-event-highlight",
+        "./skills/reference-matching",
+        "./skills/shoot-planning"
+      ]
+    },
+    {
+      "name": "video-editing-vfx",
+      "description": "VFX compositing, motion tracking, stabilization, keying",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/video-editing",
+        "./skills/editing-foundations",
+        "./skills/ffmpeg-pipeline",
+        "./skills/beat-sync",
+        "./skills/color-grading",
+        "./skills/captions-typography",
+        "./skills/sound-design",
+        "./skills/style-vfx-compositing",
+        "./skills/motion-tracking"
+      ]
+    },
+    {
+      "name": "video-editing-resolve",
+      "description": "DaVinci Resolve workflows and automation",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/video-editing",
+        "./skills/davinci-resolve",
+        "./skills/color-grading"
+      ]
+    }
+  ]
+}
