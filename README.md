@@ -227,16 +227,13 @@ curl -fsSL https://raw.githubusercontent.com/Prateekiiitg56/video-editing-skills
 
 ```mermaid
 flowchart TD
-    A[Your request + footage] --> B[video-editing router]
-    B -->|inspects ffprobe, aspect, music, project files| C{Pick style}
-    C --> D[style-* skill]
-    D --> E[Foundation skills it needs<br/>ffmpeg · beat-sync · color · captions · sound · tracking]
-    E --> F[Plan in plain English]
-    F -->|you confirm| G[Build script + data files<br/>edl.json, timing.json]
-    G --> H[Preview render]
-    H --> I[Self-check<br/>frames at cuts, safe zones, LUFS, duration]
-    I -->|fix up to 3 passes| G
-    I --> J[Final export to platform spec]
+    A[Request + footage] --> B[video-editing router<br/>probe · aspect · music · project files]
+    B --> C[style-* skill + the foundation skills it needs]
+    C --> D[Plain-English plan → you confirm]
+    D --> E[Build script + preview render]
+    E --> F{Self-check<br/>cuts · safe zones · LUFS · duration}
+    F -->|issue found, max 3 passes| E
+    F -->|pass| G[Final export to platform spec]
 ```
 
 **Workflow every style follows**
