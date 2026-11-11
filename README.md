@@ -226,7 +226,7 @@ curl -fsSL https://raw.githubusercontent.com/Prateekiiitg56/video-editing-skills
 ## ⚙️ How it works
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Your request + footage] --> B[video-editing router]
     B -->|inspects ffprobe, aspect, music, project files| C{Pick style}
     C --> D[style-* skill]
@@ -249,8 +249,19 @@ flowchart LR
 
 **Hard rules the agent always follows**
 
-| | |
-|---|---|
+- ✂️ Never cut inside a spoken word
+- 🔇 10–30 ms audio fades at every cut
+- 🔄 Fix rotation and HDR before editing
+- 🎞️ Encode lossy only once
+- 📝 Composite captions last
+- 📱 Keep all text inside platform safe zones
+- 🔤 Load fonts from explicit files
+- 📈 Never use linear easing
+- 🥁 Land beat cuts on the exact frame
+- 🚫 Never invent facts in on-screen text
+- 📏 Measure, don't claim (LUFS, fps, duration)
+
+---|---|
 | ✂️ Never cut inside a spoken word | 🔇 10–30 ms audio fades at every cut |
 | 🔄 Fix rotation / HDR before editing | 🎞️ Encode lossy only once |
 | 📝 Captions composited last | 📱 All text inside platform safe zones |
