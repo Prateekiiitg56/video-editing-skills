@@ -21,10 +21,10 @@
 
 `video-editing-skills` is a library of [Agent Skills](https://agentskills.io): folders with a `SKILL.md` file that coding agents load when a task needs them. Install it, put your footage in a folder, and ask in plain language:
 
-> *"Cut these clips into a 15-second Instagram reel synced to this song, with bold captions."*
-> *"Make a velocity edit of my car footage."*
-> *"Grade this travel footage cinematic and add a title."*
-> *"Turn this podcast into three shorts with captions."*
+- *"Cut these clips into a 15-second Instagram reel synced to this song, with bold captions."*
+- *"Make a velocity edit of my car footage."*
+- *"Grade this travel footage cinematic and add a title."*
+- *"Turn this podcast into three shorts with captions."*
 
 The agent picks the right **editing style** and loads only the skills that style needs. It follows hard correctness rules (no cuts inside words, no audio pops, safe zones, single final encode, measured loudness) and checks its own render before showing you.
 
